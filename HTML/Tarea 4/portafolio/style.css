@@ -1,0 +1,133 @@
+body {
+    background-color: #000000;
+}
+
+
+
+ header {
+    background-color: #33AED7;
+    width: 80%;
+    height: 80px;
+    margin-left: 8%;
+    margin-top: 5%;
+   
+       
+} 
+
+
+h1 { 
+    font-family: Cinzel, 'Cinzel', serif;
+    font-weight: 400;
+    color: #ffffff;
+    position: absolute;
+    left: 140px;
+    top: 65px;
+    
+}
+
+
+.nav-container {
+    float: right;
+  
+}
+
+.nav-container ul {
+    margin: 0;
+}
+ 
+.nav-container ul li{
+    display: inline;
+}
+
+
+.nav-container ul li a {
+    text-decoration: none;
+    position: relative;
+    top: 32px; 
+    bottom: 50px;
+    margin: 0px 30px 0px 0px; 
+    padding: 0px 0px 0px 5px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;  
+    color: #ffffff;
+} 
+
+.nav-container ul li a:hover {
+    color: #cfcccc;
+    border-bottom: 1px solid #000000;
+    transition: 0.10s ease-in; 
+    
+}
+
+.foto {
+    border-radius: 50%;
+    width: 290px;
+    height: 290px;
+    float: left;
+    position: relative; 
+    top: 30px;
+    left: 35px;
+   
+    
+}
+
+.redsocial {
+    float: left;
+    position: absolute; 
+    top: 110%;
+    left: 75px;
+    color: #33AED7;
+    font-family: 'Comfortaa', cursive;
+    font-size: 0.95em;
+    
+}
+
+
+.personal { 
+    line-height: 1.7;
+    text-align: justify;
+}
+
+span { 
+    margin-left: 30px;
+    text-align: center;
+    font-size: 0.89em;
+    
+    
+}
+
+strong { 
+    color: #33AED7;
+    
+}
+.container { 
+    background-color: #37392E;
+    border: 2px solid black;
+    height: 450px;
+    margin-left: 105px;
+    margin-right: 160px; 
+    
+}
+
+
+.div-descripcion {
+    width: 35%;
+    position: absolute;
+    top: 230px;
+    left: 40%;
+    align-items: center;
+    margin-left: 90px;
+    font-family: 'Comfortaa', cursive;
+    color: #ffffff;
+    
+    
+}
+
+.border { 
+    height: 380px;
+    border-left: 5px solid #33AED7;
+    position: relative;
+    top: 40px;
+    margin-left: 420px;
+    
+}

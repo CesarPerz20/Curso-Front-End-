@@ -1,0 +1,252 @@
+/* * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #DFE0E2;
+    font-family: Verdana, sans-serif;
+    height: 1000px;
+}
+
+h2 { 
+    width: 100%;
+    padding: 15px;
+    margin: 0px 15px 0px 0px;
+    color: #000000;
+}
+
+.contenedor { 
+    width: 100%;
+    height: 100vh;
+    padding: 0 15px;
+}
+
+.contenedor > * { 
+    background-color: #23B5D3;
+    border-radius: 15px 0px 15px 0px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.cabecera {
+    background-color: #B95F89;
+    color: #ffffff;
+    min-height: 60px;
+    float: left;
+    
+} 
+
+.cabecera, .pie-pagina {
+    width: inherit;
+ }
+
+ .seccion, .barra-tarea { 
+    width: 32%;
+    min-height: 400px;
+    float: left;
+
+ }
+
+ .barra-tarea { 
+     background-color: #9BBDF9;
+     float: right;
+ }
+
+ .pie-pagina {
+    background-color: #B95F89;
+    min-height: 60px;
+    float: left;
+    
+    
+} 
+
+@media only screen and (max-width: 600px) {
+    .seccion, .barra-tarea { 
+        width: 100%;
+        min-height: 200px;
+        float: left;
+    
+     }
+    
+     .barra-tarea { 
+        float: left;
+        min-height: 100px;
+     }
+
+     .pie.pagina {
+         display: none;
+     }
+} */
+
+/* USANDO GRID */
+
+/* * { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: #DFE0E2;
+    font-family: Verdana, sans-serif;
+    
+}
+
+h2 { 
+    width: 100%;
+    padding: 15px;
+    margin: 0px 15px 0px 0px;
+    color: #000000;
+}
+
+.contenedor { 
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px;
+    grid-template-rows: 100px;
+    grid-template-area: 
+
+
+}
+
+.contenedor > * { 
+    background-color: #23B5D3;
+    border-radius: 15px 0px 15px 0px;
+    padding: 10px;
+}
+
+.cabecera {
+    background-color: #B95F89;
+    color: #ffffff;
+         
+} 
+
+.cabecera, .pie-pagina {
+ 
+ }
+
+ .seccion, .barra-tarea { 
+    
+  
+
+ }
+
+ .barra-tarea { 
+     background-color: #9BBDF9;
+   
+ }
+
+ .pie-pagina {
+    background-color: #B95F89;
+    
+    
+    
+    
+} 
+
+@media only screen and (max-width: 600px) {
+    .seccion, .barra-tarea { 
+        width: 100%;
+        min-height: 200px;
+        float: left;
+    
+     }
+    
+     .barra-tarea { 
+        float: left;
+        min-height: 100px;
+     }
+
+     .pie.pagina {
+         display: none;
+     }
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #DCE0E5;
+}
+
+body {
+    background-color: #DCE0E5;
+    font-family: Verdana;
+}
+
+h2 {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1vh;
+    color: #222222;
+    height: 7vh;
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+    height: 92vh;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor > * {
+    background-color: #6E9CC4;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.seccion {
+    flex-basis: 25%;
+    max-height: 100px;
+    position: relative;
+}
+
+.seccion:after {
+    content: "";
+    display: block;
+    /*background-color: #16CF8B;*/
+    /*border: solid 5px #16CF8B;*/
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 39px;
+  
+
+    /*Calcula la posicion del elmento con la funcion calc*/
+    /*fuente: https://www.w3schools.com/cssref/func_calc.asp*/
+    left: calc(50% - 21px);
+
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 14px solid #6E9CC4;
+
+    /*Como calcular la posicion del elemento para centrarlo*/
+    /*transform: translateX(-50%);*/
+}
+
+.seccion:before {
+    content: "";
+    display: block;
+    /*background-color: #16CF8B;*/
+    /*border: solid 5px #16CF8B;*/
+    height: 0px;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    
+
+    /*Calcula la posicion del elmento con la funcion calc*/
+    /*fuente: https://www.w3schools.com/cssref/func_calc.asp*/
+    left: calc(50% - 21px);
+
+    border-left: 21px solid transparent;
+    border-right: 21px solid transparent;
+    border-top: 14px solid #DCE0E5;
+
+    /*Como calcular la posicion del elemento para centrarlo*/
+    /*transform: translateX(-50%);*/
+}

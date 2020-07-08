@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal con Hipervinculos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Comfortaa:wght@400;700&family=MuseoModerno:wght@100;300;400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+
+
+<style>
+    body {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+     header {
+    background-color: #33AED7;
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    position: relative;
+    margin-bottom: 50px;     
+} 
+
+header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -80px;
+    border-top: 40px solid #33AED7;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    left: calc(50% - 40px);     
+} 
+
+.enlaces {
+    list-style: none;
+    display: flex;        
+}
+
+.enlaces li { 
+    color: white;
+    margin: 15px 20px 0px 60px;
+    padding: 0px 10px 0px 0px; 
+}
+
+
+.enlaces li:hover { 
+    border-right: 1px solid yellow;
+    border-bottom: 2px solid yellow;
+    transition: 0.10s ease-in;
+    padding: 2px 6px;
+}
+
+
+li > a { 
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+li > a:hover { 
+    color: #aca8a8;
+    transition: 0.10s;   
+}
+ 
+
+h1 { 
+    font-family: Cinzel, 'Cinzel', serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px 0px 0px 30px; 
+}
+</style>
+    
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="h1-header">Cesar Wilson Perez Santos </h1>
+
+        <nav>
+            <ul class="enlaces">
+                <li><a href="../portafolio/Tareas/Tarea 1/Estructura Basica/index.html" target="_blank">Tarea 1</a></li>
+                <li><a href="../portafolio/Tareas/Tarea 1/Formato de Texto/index.html" target="_blank">Tarea 2</a></li>
+                <li><a href="../portafolio/Tareas/Tarea 1/Sitio de Enlaces/index.html" target="_blank">Tarea 3</a></li>
+                <li><a href="../portafolio/Tareas/Tarea 2/index.html" target="_blank">Tarea 4</a></li>     
+            </ul>
+        </nav>
+    </header>
+  
+
+
+ <section>
+
+    <h2>Esta es la Pagina principal de los Hipervinculos</h2>
+
+    <img src="hyper.jpg" alt="Hypervinculo" width="30%">
+<p>
+    Estaremos estructurando una pagina basica en HTML creando dos Hipervinculos los cuales van dirigidos a una pagina de cultura y la otra a deportes y que ambas paginas tengan un Hipervinculos que vuelva a esta pagina como principal.
+</p>
+
+<p>
+    Un hiperenlace o hipervínculo (del inglés hyperlink), o sencillamente enlace o vínculo (link), es un elemento de un documento electrónico que hace referencia a otro recurso, como por ejemplo un punto específico de un documento o de otro documento.
+</p>
+
+<div>
+    <a href="cultura.html" target="_blank">Cultura</a>
+</div>
+<br>
+
+<div>
+    <a href="deportes.html" target="_blank">Deporte</a>
+</div>
+<br>
+
+Para mas informacion visita: <a href="https://listindiario.com/">Listin Diario</a>
+
+ </section>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Basica de HTML</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Comfortaa:wght@400;700&family=MuseoModerno:wght@100;300;400;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+<style>
+    body {
+    background-color: #4b4b4b;
+    color: white;
+}
+
+     header {
+    background-color: #33AED7;
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    position: relative;
+    margin-bottom: 50px;     
+} 
+
+header::after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -80px;
+    border-top: 40px solid #33AED7;
+    border-right: 40px solid transparent;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    left: calc(50% - 40px);     
+} 
+
+.enlaces {
+    list-style: none;
+    display: flex;        
+}
+
+.enlaces li { 
+    color: white;
+    margin: 15px 20px 0px 60px;
+    padding: 0px 10px 0px 0px; 
+}
+
+
+.enlaces li:hover { 
+    border-right: 1px solid yellow;
+    border-bottom: 2px solid yellow;
+    transition: 0.10s ease-in;
+    padding: 2px 6px;
+}
+
+
+li > a { 
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+li > a:hover { 
+    color: #aca8a8;
+    transition: 0.10s;   
+}
+ 
+
+h1 { 
+    font-family: Cinzel, 'Cinzel', serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0px 0px 0px 30px; 
+}
+</style>
+    
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="h1-header">Cesar Wilson Perez Santos </h1>
+
+        <nav>
+            <ul class="enlaces">
+                <li><a href="../portafolio/Tareas/Tarea 1/Estructura Basica/index.html" target="_blank">Tarea 1</a></li>
+                <li><a href="Sitio de Enlaces/index.html" target="_blank">Tarea 2</a></li>
+                <li><a href="Sitio de Enlaces/index.html" target="_blank">Tarea 3</a></li>
+                <li><a href="Sitio de Enlaces/index.html" target="_blank">Tarea 4</a></li>    
+            </ul>
+        </nav>
+    </header>
+
+<section>
+    <h2>ESTRUCTURA BASICA DE HTML CON ENCABEZADO 2</h2>
+    <h3>ESTRUCTURA BASICA DE HTML CON ENCABEZADO 3</h3>
+    <h4>ESTRUCTURA BASICA DE HTML CON ENCABEZADO 4</h4>
+    <h5>ESTRUCTURA BASICA DE HTML CON ENCABEZADO 5</h5>
+    <h6>ESTRUCTURA BASICA DE HTML CON ENCABEZADO 6</h6>
+
+    <br>
+
+    <P>Soy Cesar Perez de Puerto Plata, un municipio de la <strong> República Dominicana </strong></P>
+<br>
+
+</section>
+
+<aside> 
+    Esta es la etiqueta de aside  
+</aside> <br>
+
+
+<footer>Esta es la etiqueta de pie de pagina </footer>
+
+</body>
+</html>

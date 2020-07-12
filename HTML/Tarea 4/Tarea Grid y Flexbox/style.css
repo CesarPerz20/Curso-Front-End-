@@ -1,0 +1,249 @@
+body { 
+    /* background-color: rgba(226, 224, 225, 0.877); */
+    /* background-image: linear-gradient (rgba(5, 5, 5, 0), rgb(255, 255, 255)); */
+    margin: 100px;
+    padding: 0;
+    height: 100px;
+  
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+    /* text-transform: capitalize; */
+
+}
+
+.sign-1 .titulo1 {
+    color: #e00808
+    margin: 25px 0px 15px 0px;
+}
+
+
+.hello h2 {
+    color: #ffffff;
+    text-shadow: 20px 20px 20px 20px;
+    /* text-transform: capitalize; */
+
+}
+
+/* h2 .sign1 {
+    margin: 50px;
+} */
+
+p  {
+    font-family: 'Raleway', sans-serif;
+    
+}
+.section {
+   
+    /* width: 50%; */
+    max-width: 1000ex;
+    margin: auto;
+    
+
+    /* display: flex;
+    
+    flex-wrap: wrap; */
+    
+
+} 
+
+
+#container { 
+    background: #8d8d8d;
+    border: 1px solid #e00808;
+    border-radius: 4px 4px 4px 4px;
+    width: 65%;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 2fr);
+    box-shadow: 1px 1px 5px 1px;
+    
+    
+
+}
+
+.sign-1 { 
+    background-color: #ffffff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px
+    /* text-align: center; */
+    
+    
+    
+      
+    grid-column: 1 / 2;
+    grid-row: 1 / 8;
+   
+}
+
+
+.hello {
+    /* background-color: #e00886; */
+    background-image: linear-gradient(-30deg, #ff1915, #f74d64);
+    /* background-image: linear-gradient(-30deg, #18e211, #4d6cf7); */
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    
+    
+   
+    grid-column: 2 / -1;
+    grid-row: 1 / 8;
+}
+
+
+
+.icons  { 
+    /* display: flex;
+    justify-content: center; */
+ 
+    
+}
+
+.icons a  i { 
+   /* display: inline-block; */
+   /* padding: 10px; */
+   
+   /* justify-items: end; */
+   border: 2px solid #000000;
+   border-radius: 55px;
+   margin: 5px;
+   padding: 20px; 
+   
+}
+
+.icons a i:nth-child(1) { 
+    
+    /* width: 100%; */
+    color: rgb(250, 2, 56);
+    font-size: 1.3em;
+    margin: 15px;
+    
+    
+ }
+
+.input { 
+    background-color: #fdfdfd;
+    margin: 0px 0px 0px 0px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+  
+}
+
+.input .text { 
+    background-color: #e2e2e2;
+    border-style: none;
+    border-radius: 4px 4px 4px 4px;
+    color: #808080;
+    font-weight: 300;
+    /* display: flex;
+    justify-content: column;
+    align-content: center; */
+    margin: 8px 0px;
+    padding: 2px;
+    width: 95%;
+    height: 35px;
+   
+}
+
+
+.item1 {
+    /* background-color: #af0afc; */
+    /* display: flex;
+    justify-content: center; */
+    margin: 0px;
+    color: #757373; 
+}
+
+
+
+.item2 {
+    /* background-color: #e00813; */
+    /* display: flex;
+    justify-content: center; */
+    margin: 0px;
+    color: #757373; 
+    
+}
+
+
+
+.item3 {
+    /* background-color: #cae008; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    padding: 10px;
+    margin: 5px;
+    
+    /* width: 90%; */
+    /* margin: 10px; */
+
+}
+
+
+
+.item4 {
+    /* background-color: #e05708; */
+    display: flex;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    /* margin: 10px; */
+    
+}
+
+.item4 .button2 { 
+    /* margin: 10px; */
+    padding: 10px;
+    width: 120px;
+    border-radius: 40px 40px 40px 40px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 700;
+    color: #FFFFFF;
+    justify-self: end;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+
+
+
+.item5 .button1 { 
+    margin: 2px;
+    padding: 8px;
+    width: 120px;
+    border-radius: 40px 40px 40px 40px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: 700;
+    color: #FFFFFF;
+    justify-self: end;
+    border-style: none;
+    background-color: #e2422c;
+    
+    
+    
+}
